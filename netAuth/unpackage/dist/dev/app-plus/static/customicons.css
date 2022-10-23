@@ -1,8 +1,0 @@
-@font-face {
-	font-family: "customicons";
-	src: url('/static/customicons.ttf') format('truetype');
-}
-
-.customicons {
-	font-family: "customicons" !important;
-}
