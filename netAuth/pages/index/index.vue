@@ -280,21 +280,21 @@
 					},
 					success: (res) => {
 						console.log(res);
-						if (res.data.indexOf('返回登录') > 0) {
+						if (res.data.indexOf('返回登录') >= 0) {
 							clearInterval(this.timer);
 							this.timer = null;
 							this.step = 2;
 							this.popType = 'success';
 							this.popMsg = '登陆成功,广快上网~';
 							this.$refs.message.open();
-						} else if (res.data.indexOf('密码错误') > 0) {
+						} else if (res.data.indexOf('密码错误') >= 0) {
 							clearInterval(this.timer);
 							this.timer = null;
 							this.step = 0;
 							this.popType = 'error';
 							this.popMsg = '账号或密码错误!';
 							this.$refs.message.open();
-						} else if (res.data.indexOf('将会冻结') > 0) {
+						} else if (res.data.indexOf('将会冻结') >= 0) {
 							clearInterval(this.timer);
 							this.timer = null;
 							this.step = 0;
@@ -349,7 +349,7 @@
 				});
 			},
 			clickLogin() {
-				if (this.step !== 1) {
+				if (this.step === 0 || this.step === 2) {
 					this.timer = setInterval(() => {
 						this.netConnect();
 					}, 200);
