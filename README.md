@@ -13,4 +13,5 @@
 ⚡部分库文件如uni_modules和临时文件如unpackage未上传  
 📢南工认证APP详细介绍和使用建议：[B站链接](https://www.bilibili.com/video/BV1wm4y1w7Xn "B站链接")
 ## 2022-10-27更新
-+ 出于研究目的利用Electron完成PC端exe打包 [下载链接](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6e3fd8ae-4341-41a5-8a91-a55040cc4a5e/e9a98275-8dc4-400c-a325-71ee9328d3b4.7z "下载链接") [B站链接](https://www.bilibili.com/video/BV11R4y1Q7QE "B站链接")
++ 出于研究目的利用Electron完成PC端exe打包 [B站链接](https://www.bilibili.com/video/BV11R4y1Q7QE "B站链接")
++ 压缩包托管于unicloud [下载链接](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6e3fd8ae-4341-41a5-8a91-a55040cc4a5e/e9a98275-8dc4-400c-a325-71ee9328d3b4.7z "下载链接")
